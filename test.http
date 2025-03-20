@@ -1,0 +1,24 @@
+### llama
+POST localhost:3000/llama
+Content-Type: application/json
+
+{
+  "prompt": "오늘 저녁 메뉴를 추천해줘"
+}
+
+### deepseek
+POST localhost:3000/deepseek
+Content-Type: application/json
+
+{
+  "prompt": "오늘 저녁 메뉴를 추천해줘"
+}
+
+### flux
+### timeout: 60000
+POST localhost:3000/flux
+Content-Type: application/json
+
+{
+  "prompt": "김치찌개"
+}
